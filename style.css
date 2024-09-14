@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color:rgb(20, 138, 36);
+    text-align: center;
+}
+
+.enter{
+    text-align: center;
+    color: darkmagenta;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: pink;
+}  
+
+.container{
+    background-color: white;
+    color: rgb(21, 21, 5);   
+    min-height: 45vh; width: 40vh;
+    padding: 2rem;
+    margin: 0px;
+    border-radius: 2rem;
+}
+
+form{
+    margin: 1.5rem 0 0 0;
+}
+
+form select,input,button{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+form input{
+    font-size: 1rem;
+    border: 2px solid black;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 0.5rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.select img{
+    max-width: 2rem;
+}
+
+.options{
+    margin-top: 2rem;
+}
+
+.select{
+    display: flex;
+    border: 1px solid darkgrey;
+}
+
+.msg{
+    margin-top: 2rem;
+    font-size: x-large;
+    /* font-weight: 300px; */
+    color: rgb(20, 138, 36);
+    text-align: center;
+    align-items: center;
+}
+
+.amount{
+    gap: 2;
+    font-size: 1.5rem;
+}
+
+.submit{
+    margin-left: 0.9rem;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 90%;
+    font-size:medium;
+    font-size: 1.15rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 2rem;
+}
+
+
+
+.FROM p, .TO p{
+    font-size: 1.3rem;
+}
